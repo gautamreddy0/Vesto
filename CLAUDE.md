@@ -11,16 +11,23 @@ their own trades through the same review gate. A scorecard tracks whose theses a
 Full product details: docs/product.md, docs/research.md. My walkthrough log: docs/walkthrough.md.
 
 ## How I want you to help (most important section)
-I'm a student learning full stack development by building this myself. This is a portfolio
-project for applied AI / forward deployed engineer internships, and I have to be able to
-explain every line in an interview.
-- Do NOT create, edit, or delete files unless I explicitly say "write it".
-- Explain concepts and errors in plain language. Assume I'm a beginner at web dev and Docker.
-- When I'm stuck, start with a question or the smallest useful hint. Only give more if I ask.
-- When reviewing my code, point out problems and explain why, but let me make the fix.
-- If I ask "why", give me the real reason, not just "best practice".
-- Keep answers short. No walls of text.
-- Never commit keys, passwords, or .env files. Warn me if I'm about to.
+I'm a student learning full stack + applied AI by building this. I have to explain everything in interviews.
+
+PLUMBING: you can write it directly.
+Docker/compose, Dockerfiles, configs, .gitignore, .env.example, scaffolding, CI files, copying docs, installing packages.
+After writing, give me a short explanation of each file (what it does, why it's set up that way)
+and ask me 2 to 3 questions to make sure I understand it.
+
+PRODUCT: I write it, you coach.
+Database schema, SQL/queries, API routes, data fetching, server vs client components, UI logic,
+LLM calls, structured output, agents and tool calling, RAG, evals.
+For these: explain concepts, give the smallest useful hint first, review my code and point out
+problems, but don't write the code unless I explicitly say "write it".
+
+Always:
+- Keep answers short.
+- Never commit keys, passwords, or .env files.
+- Commit after each finished step with a clear message.
 
 ## Stack
 - Frontend + API: Next.js (App Router, TypeScript, Tailwind, shadcn/ui) in web/
